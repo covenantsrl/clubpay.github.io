@@ -1,0 +1,106 @@
+/*!
+Template :	ICOCrypto @by Softnio
+Theme	 :  Default
+* Version	 :	2.1.0
+* Updated	 :	11/22/2022
+*/
+/*! WRITE YOUR CUSTOM STYLE **/
+
+@media (min-width: 992px) {
+    .cpn-head .title-lg { font-size: 3rem;}
+}
+.has-fixed:not(.is-dark) .header-main {background: #f4f4f4;}
+.bg-theme-grad {background-image: linear-gradient(to right, #102331 0%, #102331 100%) !important;}
+.copyright-text {text-align: right;}
+.coming {
+    border-radius: 9999px;
+    background: #2CBCA5;
+    color: #fff !important;
+    padding: 7px;
+    max-width: 105px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.contact {background: linear-gradient(312.53deg,#171f28 4.28%,#1d334f);}
+.contact-text {color:#fff}
+.contact-text h4 {color:#fff}
+.section-head p {font-size: 1.4rem;}
+.bg-theme-alt {background: #1f3857 !important;} 
+.menu-item a {font-size: 17px;}
+.soon {
+    
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: rgb(37 99 235);
+    border-radius: 0.75rem;
+    background-color: rgb(191 219 254);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    display: inline-block;
+    vertical-align: super;
+}
+.list-number-s2 li span {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(22, 163, 254, 0.2);
+    border-radius: 50%;
+    color: #0189e0;
+    font-weight: 700;
+}
+.list-check-s3 li:before {
+    top: -3px;
+}
+.feature-slider-dot:after {
+    display: none;
+   /*  position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px; 
+    content: '';
+    height: 100%; 
+    background: url(../images/line2.png) repeat 0 0;
+    z-index: -1;
+    animation: slide 1s linear infinite; */
+}
+.feature-slider-dot {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 0;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(22, 163, 254, 0.2);
+    border-radius: 50%;
+    color: #0189e0;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+/* @keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 100%; }
+}
+ */
+.cover {max-height: 435px;}
+#services:before {
+        content: "";
+        display: block;
+        height: 100px; /* Height of your sticky header */
+        margin: 0px 0 0; /* Negative height of your sticky header */
+}
+.btn.accedi {border-color:#ff4949}
+.btn.accedi:hover {
+    border-color:#ff4949;
+    background:linear-gradient(95.51deg,#f87c43 -.27%,#ff4949 100.27%)}
